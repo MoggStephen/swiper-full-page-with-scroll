@@ -1,0 +1,30 @@
+html,
+body,
+.page-container,
+.page-content {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*SWIPER*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(even) {
+  background: black;
+  color: white;
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(odd) {
+  background: white;
+  color: black;
+}/*# sourceMappingURL=index.css.map */
