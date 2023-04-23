@@ -3,7 +3,7 @@ LIVE SITE: [""]
 # RUNDOWN
 
 - Swiper slides set up to full widht and full height.
-- Swipers different animation affects have been commented out to change them easily
+- Swipers different animation affects have been commented out to change them easily.
 - Can change swiper animation speed with the speed property.
 
 - Use of an event listener on scroll which checks the scroll direction with deltaY which triggers the slidePrev()/slideNext() swiper object function.
