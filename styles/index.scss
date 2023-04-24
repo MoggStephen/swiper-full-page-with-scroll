@@ -1,20 +1,21 @@
-html,
-body,
-.page-container,
-.page-content {
-  height: 100%;
+/*Boilerplate styles*/
+*{
+  /*Reset margin and padding so it doesnt interfere with full page width and height!*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*Needed for full page height slides*/
+html,body,.page-container,.page-content{
+  height: 100%;
+}
+
 /*SWIPER*/
 .swiper {
-  width: 100%;
   height: 100%;
-  .swiper-wrapper{
+  .swiper-wrapper{  
     .swiper-slide{
-      text-align: center;
       font-size: 2rem;
       
       display: flex;
